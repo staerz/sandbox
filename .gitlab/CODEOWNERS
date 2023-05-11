@@ -1,0 +1,19 @@
+# CODEOWNERS file:
+# Specifies code owners per files and directories for this repository
+# Find documentation (syntax) here:
+# - https://gitlab.cern.ch/help/user/project/code_owners
+# - https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+################################################################################
+
+# default match using wildcards:
+* @staerz
+
+# This will match all files for which the file name ends in `.md`
+*.md @staerz
+
+# particular file
+WordExceptions.txt @staerz
+
+# Ending a path in a `/` will specify the code owners for every file
+# nested in that directory, on any level
+/mountain/ @staerz
