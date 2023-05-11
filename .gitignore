@@ -1,0 +1,26 @@
+# Specifies intentionally untracked files for this repository
+# Find documentation (syntax) here: https://git-scm.com/docs/gitignore
+#
+# White-listing approach: forbid everything, only allow explicitly
+#
+# We aim not to cover all cases, things can always be added by "-f" manually;
+# and files already tracked by Git are not affected anyway.
+################################################################################
+
+# First, ignore everything
+*
+# Now, white-list anything that's a directory
+!*/
+# and all the file types we're interested in:
+
+# Markdown files
+!*.md
+
+# Text files
+!*.txt
+
+# latex source files
+!*.tex
+
+# temporary source files are forbidden again
+._*.tex
