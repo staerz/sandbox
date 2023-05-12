@@ -16,11 +16,7 @@ git clone ssh://git@github.com/staerz/sandbox.git
 ## Learning Git ##
 For learning git, see the [Official Git Tutorial](https://git-scm.com/docs/gittutorial) or just search the web for others.
 
-Feel also free to study the following tutorials:
-- [LASP Git tutorial](https://staerz.web.cern.ch/slides/LASP_Git_Tutorial.pdf)
-- [LASP Rebase tutorial](https://staerz.web.cern.ch/slides/LASP_Git_Rebase.pdf)
-
-but keep in mind that they are tailored for [the LASP firmware project](https://gitlab.cern.ch/atlas-lar-be-firmware/LASP/LASP) and hence not everything explained there might apply for your project.
+Feel also free to study the [Git tutorial](https://staerz.web.cern.ch/slides/Git_Tutorial.pdf)!
 
 A big recommendation is the [Git Cheat Sheet](https://staerz.web.cern.ch/slides/GitCheatSheet.txt), even if you know git already very well.
 Make sure to always have a copy of it right next to you :wink:.
@@ -41,7 +37,7 @@ This repository comes with the following :memo: (by default before changes) and 
 ### Learning by doing with git ###
 To test git, simply play with the repository (based on the [**Git Cheat Sheet**](https://staerz.web.cern.ch/slides/GitCheatSheet.txt)):
 
-First of all: create a dedicated branch (try not to mess on master, you won't be able to push anyway, possibly), then:
+First of all: create a dedicated branch (try not to mess on main, you won't be able to push anyway, possibly), then:
 - create new :memo:
 - modify existing :memo:
 - try to merge with other branches etc.
@@ -54,9 +50,7 @@ You can do this directly in the [web interface](./BrothersGrimm.txt), but you sh
 ### Issue tracker ###
 GitHub has an integrated issue tracker.
 
-This repository requires 1 approver per merge request (as might be the default for some projects).
+This repository doesn't require approval for merge requests (which might be the default for some projects).
 
-For learning the feature and in :zap: to good practice, this repository has "Enable self approval of merge requests" active, so you can approve your own merge requests.
-
-Merging to master is still restricted to the maintainers of this repository.
+Merging to main is restricted to the maintainer of this repository.
 You can though merge to any other branch.
